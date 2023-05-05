@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.mainBox {
+    display: flex;
+    width: 1000px;
+}
+
+
+
+
+.mainBox input{
+    width: 100%;
+    /* border: none; */
+    outline: none;
+    border: 1px solid black;
+}
+
+
+.mainBox div{
+    flex-basis: 20%;
+    height: 200px;
+    border: 1px solid black;
+}

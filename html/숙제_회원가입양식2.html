@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>숙제_회원가입양식2</title>
+    
+    <link rel="stylesheet" href="/03_JAVASCRIPT/css/숙제_회원가입양식2.css">
+  
+</head>
+<body>
+
+    <form action="main.html" method="get" onsubmit="validate();">
+        <fieldset>
+            <legend>회원 가입 양식</legend>
+            <table>
+                <tr>
+                    <td>아이디</td>
+                    <td>
+                        <input type="text" id="inputId">
+                    </td>
+                    <td>
+                        <button type="button" id="idBtn">중복확인</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>비밀번호</td>
+                    <td>
+                        <input type="password" id="inputPw">
+                    </td>
+                    <td>
+                        <span id = "pwCheckO"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>비밀번호확인</td>
+                    <td>
+                        <input type="password" id="inputPw2">
+                    </td>
+                    <td>
+                        <span id = "pwCheckX"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>이름</td>
+                    <td>
+                        <input type="text" id="inputName">
+                    </td>
+                    <td>
+                        <span id = "nameCheck"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>성별</td>
+                    <td>
+                        <label for="male">남</label>  
+                        <input type="radio" name="gender" id="male">
+                        <label for="female">여</label>  
+                        <input type="radio" name="gender" id="female">
+                    </td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>전화번호</td>
+                    <td>
+                        <input type="text" id="inputNumber">
+                    </td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>이메일</td>
+                    <td>
+                        <input type="text" id="inputNumber">
+                    </td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td id="button2"> 
+                        <button id="submit">초기화</button>
+                        <button id="join">회원가입</button>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>            
+        </fieldset>
+
+    </form>
+    
+    <script src="/03_JAVASCRIPT/js/숙제_회원가입양식2.js"></script>
+</body>
+</html>
